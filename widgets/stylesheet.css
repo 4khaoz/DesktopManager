@@ -2,5 +2,23 @@ QWidget
 {
     background-color: #4F628E;
     color: rgb(221, 221, 221);
-    font: 10px "Arial";
+    font: 14px "Arial";
+}
+
+QPushButton 
+{
+    background-color: #2E4172;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 4px;
+}
+
+QPushButton:hover
+{
+    background-color: rgb(73, 84, 116);
+}
+
+QPushButton:pressed
+{
+    background-color: rgb(98, 114, 164);
 }
